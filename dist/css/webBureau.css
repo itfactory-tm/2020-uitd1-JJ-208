@@ -1,2 +1,69 @@
 /* in stylish-portfolio.min.css wijzig je NIETS */
 /* schrijf in dit bestand je eigen stijlregels om opmaak aan te passen */
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro {
+    background-color: #476A72;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+h2,
+h4 {
+    font-family: Cabin, sans-serif;
+}
+
+header {
+    background-image: url(../img/bg-masthead.jpg);
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+
+.hover-effect img {
+    width: 65%;
+    opacity: 0.7;
+    border-radius: 50%;
+    transition: opacity 0.35s, transform 0.35s;
+    transform: translate3d(0,40px,0);
+}
+.hover-effect h2,
+.hover-effect p {
+    transform: translate3d(0,40px,0);
+    text-align: center;
+}
+
+.hover-effect h2 {
+    transition: transform 0.35s;
+}
+
+.hover-effect p {
+    color: rgba(255,255,255,0.8);
+    opacity: 0;
+    transition: opacity 0.35s, transform 0.2s;
+}
+
+.hover-effect:hover img,
+.hover-effect:hover p {
+    opacity: 1;
+}
+
+.hover-effect:hover img,
+.hover-effect:hover h2,
+.hover-effect:hover p {
+    transform: translate3d(0,0,0);
+}
+
+.hover-effect:hover p {
+    transition-duration: 0.35s;
+}
+
+.profiel {
+    border-radius: 50%;
+}
