@@ -68,8 +68,48 @@ header {
     border-radius: 50%;
 }
 
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
 
+form {
+    margin:0 auto;
+    width:459px;
+}
 
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#A9D1E0;
+    border:1px solid #47BCC3;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+}
+
+textarea {
+    height:213px;
+}
+
+input:focus, textarea:focus {
+    border:1px solid royalblue;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    /*text-indent:-9999px;*/
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+#submit:hover {
+    opacity:.9;
+}
 
 
 
