@@ -144,6 +144,21 @@ header .overlay {
     filter: blur(4px);
 }
 
+.plaatsing{
+    padding-bottom: 15px;
+    margin: 10px;
+}
+.teamstijl{
+    background-color: #F6F5F5;
+    color: black;
+
+}
+.kaart{
+    transition: all 1s linear;
+}
+.kaart:hover{
+    transform: scale(1.03,1.03);
+}
 
 
 
