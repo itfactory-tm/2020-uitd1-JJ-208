@@ -170,5 +170,8 @@ header .overlay {
     }
 }
 
+input[type="radio"]{
+    transform: scale(1.25);
+}
 
 
