@@ -80,7 +80,7 @@ form {
 }
 
 input, textarea {
-    width:439px;
+    /*g*/
     height:27px;
     background:#A9D1E0;
     border:1px solid #47BCC3;
@@ -88,6 +88,10 @@ input, textarea {
     margin-top:3px;
     font-size:0.9em;
     color:#3a3a3a;
+}
+
+input[type='radio']{
+    transform: scale(1.5);
 }
 
 textarea {
