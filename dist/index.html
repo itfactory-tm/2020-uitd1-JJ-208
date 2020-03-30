@@ -72,7 +72,7 @@
     <div class="container text-center my-auto test intro-transition">
         <img src="img/webtranet_banner_white.svg" alt="Logo Webtranet" width="50%" height="auto" class="h1-logo">
         <h3 class="mb-5">
-            <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, doloribus.</em>
+            <em>Webtranet - reinventing the wheel</em>
         </h3>
         <a class="btn btn-change js-scroll-trigger" href="#wie">Find Out More</a>
     </div>
@@ -80,20 +80,21 @@
 </header>
 
 
-<!-- About NUUUUU-->
-<!--<section class="content-section bg-light " id="about">-->
-<!--    <div class="container text-center">-->
-<!--        <div class="row">-->
 
-<!--            <div class="col-md-12">-->
-<!--                <div class="jumbotron jumbotron-fluid">-->
-<!--                    <div class="container">-->
-<!--                        <img src="img/Webtranet_logo_crop.png" alt="Logo Webtranet" class="scale">-->
-<!--                        <p>Dit hier moet nog verandert worden...</p>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+<!-- About -->
+<section class="content-section bg-light " id="about">
+    <div class="container text-center">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <img src="img/Webtranet_logo_crop.png" alt="Logo Webtranet" class="scale">
+                        <p>Dit hier moet nog verandert worden...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <!--</section>-->
 
@@ -122,9 +123,8 @@
                                                   title="Mika De Roover" class="profiel">
                     <figcaption>
                         <h2>Mika De Roover</h2>
-                        <p class="text-faded mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                            adipisci aliquid aperiam at culpa cupiditate distinctio dolorum itaque maxime
-                            repudiandae!</p></figcaption>
+                        <p class="text-faded mb-0">Sinds jonge leeftijd gepassioneerd door wonderbaarlijke wereld van Webdesign.
+                        Mijn doel is om iedereen te helpen met het maken van een goede gestructureerde website! </p></figcaption>
                 </figure>
                 </figure>
             </div>
@@ -137,7 +137,8 @@
                         <h2>
                             Raife Güngör
                         </h2>
-                        <p>Ik ben Raife en ik ben 21 jaar oud. Als u meer wilt weten over deze project dan kan u altijd een berichtje doorsturen via het
+                        <p>Ik ben Raife en ik ben 21 jaar oud. Als u meer wilt weten over deze project dan kan u altijd
+                            een berichtje doorsturen via het
                             <a href="#contact">contactformulier </a></p>
                     </figcaption>
                 </figure>
@@ -264,7 +265,8 @@
             <h2 class="mb-5">Contacteer ons</h2>
             <p>Aarzel je nog over iets, of heb je nog enkele vragen? Neem dan hier met ons contact op.</p>
         </div>
-        <form action="" method="post" novalidate>
+
+        <form action="webtranet.php" method="post" >
 
             <div class="form-row">
                 <div class="form-group col-md-6 col-sm-12">
@@ -291,27 +293,24 @@
             </div>
 
 
-
             <div class="form-row">
                 <div class="form-group col-md-12 col-sm-12">
                     <label for="inputReden">Waarom contacteert u ons?</label>
                     <select class="form-control" name="inputReden" id="inputReden">
-                        <option value="1">Extra informatie</option>
-                        <option value="2">Inhuren</option>
-                        <option value="3">Inkijk projecten</option>
+                        <option value="Extra informatie">Extra informatie</option>
+                        <option value="Inhuren">Inhuren</option>
+                        <option value="Bezichtiging projecten">Inkijk projecten</option>
                     </select>
                 </div>
             </div>
 
             <div class="form-row">
-
-
                 <div class="form-check col-md-6 col-sm-12 mt-4">
                     <label class="form-check-label d-block" for="inputExtra1">
                         Ik wil graag op de hoogte blijven.
                     </label>
                     <input class="form-check-input" type="radio" name="inputExtraContact" id="inputExtra1"
-                           value="optie1" checked>
+                           value="updates over ons" checked>
                 </div>
 
                 <div class="form-check col-md-6 col-sm-12 mt-4">
@@ -320,23 +319,15 @@
                         Neen, Ik wil liever niet op de hoogte blijven.
                     </label>
                     <input class="form-check-input" type="radio" name="inputExtraContact" id="inputExtra2"
-                           value="optie2">
+                           value="geen updates over ons">
                 </div>
             </div>
 
-                <div class="row">
-                    <div class="col-md-12 mt-5">
-                        <button type="submit" class="btn btn-change js-scroll-trigger ">Verstuur</button>
-                    </div>
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <button type="submit" class="btn btn-change js-scroll-trigger ">Verstuur</button>
                 </div>
-
-
-
-
-
-
-
-
+            </div>
 
 
         </form>
