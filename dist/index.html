@@ -71,7 +71,7 @@
 </header>
 
 
-<!-- About NUUUUU-->
+<!-- About -->
 <section class="content-section bg-light " id="about">
     <div class="container text-center">
         <div class="row">
@@ -129,7 +129,8 @@
                         <h2>
                             Raife Güngör
                         </h2>
-                        <p>Ik ben Raife en ik ben 21 jaar oud. Als u meer wilt weten over deze project dan kan u altijd een berichtje doorsturen via het
+                        <p>Ik ben Raife en ik ben 21 jaar oud. Als u meer wilt weten over deze project dan kan u altijd
+                            een berichtje doorsturen via het
                             <a href="#contact">contactformulier </a></p>
                     </figcaption>
                 </figure>
@@ -259,7 +260,8 @@
             <h2 class="mb-5">Contacteer ons</h2>
             <p>Aarzel je nog over iets, of heb je nog enkele vragen? Neem dan hier met ons contact op.</p>
         </div>
-        <form action="" method="post" novalidate>
+
+        <form action="webtranet.php" method="post" >
 
             <div class="form-row">
                 <div class="form-group col-md-6 col-sm-12">
@@ -286,27 +288,24 @@
             </div>
 
 
-
             <div class="form-row">
                 <div class="form-group col-md-12 col-sm-12">
                     <label for="inputReden">Waarom contacteert u ons?</label>
                     <select class="form-control" name="inputReden" id="inputReden">
-                        <option value="1">Extra informatie</option>
-                        <option value="2">Inhuren</option>
-                        <option value="3">Inkijk projecten</option>
+                        <option value="Extra informatie">Extra informatie</option>
+                        <option value="Inhuren">Inhuren</option>
+                        <option value="Bezichtiging projecten">Inkijk projecten</option>
                     </select>
                 </div>
             </div>
 
             <div class="form-row">
-
-
                 <div class="form-check col-md-6 col-sm-12 mt-4">
                     <label class="form-check-label d-block" for="inputExtra1">
                         Ik wil graag op de hoogte blijven.
                     </label>
                     <input class="form-check-input" type="radio" name="inputExtraContact" id="inputExtra1"
-                           value="optie1" checked>
+                           value="updates over ons" checked>
                 </div>
 
                 <div class="form-check col-md-6 col-sm-12 mt-4">
@@ -315,23 +314,15 @@
                         Neen, Ik wil liever niet op de hoogte blijven.
                     </label>
                     <input class="form-check-input" type="radio" name="inputExtraContact" id="inputExtra2"
-                           value="optie2">
+                           value="geen updates over ons">
                 </div>
             </div>
 
-                <div class="row">
-                    <div class="col-md-12 mt-5">
-                        <button type="submit" class="btn btn-change js-scroll-trigger ">Verstuur</button>
-                    </div>
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <button type="submit" class="btn btn-change js-scroll-trigger ">Verstuur</button>
                 </div>
-
-
-
-
-
-
-
-
+            </div>
 
 
         </form>
