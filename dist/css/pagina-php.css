@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    max-width: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 60px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.h1-logo {
+    padding: 30px;
+}
+
+p {
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    color: white;
+}
