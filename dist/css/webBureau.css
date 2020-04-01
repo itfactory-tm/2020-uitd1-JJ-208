@@ -180,6 +180,10 @@ header .overlay {
     }
 }
 
+.php {
+    text-align: center;
+}
+
 input[type="radio"]{
     transform: scale(1.25);
 }
