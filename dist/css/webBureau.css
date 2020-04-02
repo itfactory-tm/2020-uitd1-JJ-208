@@ -106,9 +106,16 @@ header .overlay {
 
 .plaatsing{
     padding-bottom: 15px;
-    margin: 10px;
-    margin-bottom: 15px;
+    margin: 20px;
+    margin-bottom: 10px;
+
+
 }
+.testpl{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .teamstijl{
     background-color: #F6F5F5;
     color: black;
