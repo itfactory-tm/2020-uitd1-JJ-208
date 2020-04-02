@@ -15,11 +15,12 @@
 <body>
 <div class="container php">
     <div class="row ">
-        <div class="col-lg-6 offset-lg-3 col-md-9 offset-md-2 col-sm-12">
-            <div class="card kaart plaatsing ">
-                <img class="card-img-top" src="img/card1.jpg" alt="Samenwerking">
-                <div class="card-body">
+        <div class="col-lg-12 extramarge">
+            <div class="card text-center">
+                <div class="card-header">
                     <h5 class="card-title">Bedankt voor uw verzoek.</h5>
+                </div>
+                <div class="card-body">
                     <p class="card-text">We gaan hiermee zo snel mogelijk aan de slag. Hieronder kan u een overzicht
                         vinden van uw gegevens: </p>
                     <?php
@@ -59,15 +60,13 @@
 
 
                     ?>
-                </div>
-            </div>
-
-            <footer>
-                <div class="col-lg-6 offset-lg-3 col-md-6 col-sm-12">
                     <a class="btn btn-change" href="index.html">Homepagina</a>
+                </div>
+                <div class="card-footer text-muted">
                     <p>&copy; 2020 Webtranet</p>
                 </div>
-            </footer>
+            </div>
+        </div>
 
 
         </div>

@@ -2,10 +2,6 @@ body {
     text-align: center;
     font-family: Raleway, sans-serif;
     font-size: 20px;
-    background-image: url(../img/header-bg.jpg);
-    background-size: cover;
-    max-width: 100%;
-    background-repeat: no-repeat;
 }
 
 h1 {
@@ -28,4 +24,8 @@ p {
 
 footer {
     color: white;
+}
+
+.extramarge {
+    margin-top: 25px;
 }
